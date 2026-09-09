@@ -125,6 +125,9 @@ Socket.io has this fancy thing called `rooms` in which different `sockets(client
 
 In the code we just put in, we did `socket.join(newChannel)` which is telling the socket to join the new channel room.
 
+> [!NOTE]
+> When a user later switches channels, leave the previous room before joining the new one (`socket.leave` then `socket.join`) so they stop receiving messages from the old channel.
+
 Rooms are great, because you can emit only to that room. You will see how that works very soon.
 
 Let's update the client to display all channels that exist and mark for each user which channel they are on (which Socket.io `room` they are in).
@@ -289,6 +292,10 @@ Finally, Let's add a server socket listener for `user changed channel`
 >
 //Have the socket join the room of the channel
 socket.on('user changed channel', (newChannel) => {
+  if (socket.currentChannel) {
+    socket.leave(socket.currentChannel);
+  }
+  socket.currentChannel = newChannel;
   socket.join(newChannel);
   socket.emit('user changed channel', {
     channel : newChannel,
