@@ -35,7 +35,7 @@ io.on("connection", (socket) => {
 })
 >
 const exphbs  = require('express-handlebars');
-app.engine('handlebars', exphbs());
+app.engine('handlebars', exphbs.engine());
 app.set('view engine', 'handlebars');
 >
 app.get('/', (req, res) => {
@@ -69,7 +69,7 @@ $ cd ..
 //app.js
 //Express View Engine for Handlebars
 const exphbs  = require('express-handlebars');
-app.engine('handlebars', exphbs());
+app.engine('handlebars', exphbs.engine());
 app.set('view engine', 'handlebars');
 //Establish your public folder
 app.use('/public', express.static('public'))
