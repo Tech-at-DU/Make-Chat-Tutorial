@@ -23,13 +23,13 @@ $ cd your-project-name
 $ npm init
 ```
 
-When your `package.json` arrives, do yourself a favor and make sure it has the `express`, `mongoose`, and `express-handlebars`  module dependencies installed. Also, create an `app.js` while you're at it.
+When your `package.json` arrives, do yourself a favor and make sure it has the `express` and `express-handlebars` module dependencies installed. Also, create an `app.js` while you're at it.
 
 >[action]
 > Install dependencies and create `app.js`
 >
 ```bash
-$ npm install express mongoose express-handlebars socket.io --s
+$ npm install express express-handlebars socket.io --s
 $ touch app.js
 ```
 >

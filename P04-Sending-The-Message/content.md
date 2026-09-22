@@ -36,8 +36,7 @@ I'll give you the new handlebars and CSS so you can fast forward a bit on the st
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="socket.io/socket.io.js"></script>
     <script src="/public/index.js"></script>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css'></link>
-    <link href='/public/index.css' rel='stylesheet' type='text/css'></link>
+    <link href='/public/index.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
 >
