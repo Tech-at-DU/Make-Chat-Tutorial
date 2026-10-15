@@ -3,7 +3,7 @@ title: "What we're building"
 slug: start-slacking
 ---
 
-If you've been attending Make School for any amount of time now, you should be very acquainted with the chat program Slack.
+You've likely used the chat program Slack.
 
 This live messaging app, along with its little brother Discord, rely heavily on realtime communication.
 
@@ -46,8 +46,6 @@ To gain familiarity with these topics, you can complete the following tutorials 
 
 1. [Code Academy JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
 1. [Code Academy jQuery](https://www.codecademy.com/learn/learn-jquery)
-1. [Giphy Search Tutorial](https://www.makeschool.com/academy/track/giphy-search-app-with-node-js)
-1. [Rotten Potatoes Tutorial](https://www.makeschool.com/academy/track/rotten-potatoes---movie-reviews-with-express-js)
 
 # HTML5 Bidirectional Communication => WebSocket
 
