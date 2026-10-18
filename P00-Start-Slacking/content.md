@@ -106,7 +106,7 @@ Let's look at a simple wireframe of what we want to build. Basically it is a cha
 
 And it certainly would be next to impossible... if it weren't for a little library called socket.io!
 
-[Socket.io](socket.io) is a lightweight wrapper you can use to implement websockets using the WebSocket standard.
+[Socket.io](https://socket.io/) is a lightweight wrapper you can use to implement websockets using the WebSocket standard.
 
 >[info]
 > Remember that Socket.io has both a **server** and a **client** side to handle both the sending and receiving of websocket messages.
