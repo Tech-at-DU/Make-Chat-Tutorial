@@ -29,7 +29,7 @@ When your `package.json` arrives, do yourself a favor and make sure it has the `
 > Install dependencies and create `app.js`
 >
 ```bash
-$ npm install express mongoose express-handlebars socket.io --saveave
+$ npm install express mongoose express-handlebars socket.io --save
 $ touch app.js
 ```
 >
