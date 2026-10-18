@@ -15,7 +15,7 @@ slug: get-it-together
 You know the drill by now. But in case you've forgotten the Node essentials...
 
 >[action]
-> Create your project directory. **Make sure to speicfy `app.js` as your *entry point* in the `npm init` setup!**
+> Create your project directory. **Make sure to specify `app.js` as your *entry point* in the `npm init` setup!**
 >
 ```bash
 $ mkdir your-project-name
@@ -29,7 +29,7 @@ When your `package.json` arrives, do yourself a favor and make sure it has the `
 > Install dependencies and create `app.js`
 >
 ```bash
-$ npm install express mongoose express-handlebars socket.io --s
+$ npm install express mongoose express-handlebars socket.io --saveave
 $ touch app.js
 ```
 >
