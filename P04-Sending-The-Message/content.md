@@ -24,7 +24,7 @@ Remember we want it to look roughly like this wireframe:
 I'll give you the new handlebars and CSS so you can fast forward a bit on the styling.
 
 >[action]
-> Update your `/views/index.handleabars` to the following:
+> Update your `/views/index.handlebars` to the following:
 >
 ```html
 <!--index.handlebars-->
@@ -386,10 +386,10 @@ module.exports = (io, socket) => {
 
 Finally we should update the client to listen for any `new message` events from the server, and when they come, append those new messages to the DOM for the user to see.
 
-**You got this one! Give it a shot first! You'll be adding the code to `/public/index,js`**
+**You got this one! Give it a shot first! You'll be adding the code to `/public/index.js`**
 
 >[solution]
-> Add a `socket.on('new message')` listener to `/public/index,js`:
+> Add a `socket.on('new message')` listener to `/public/index.js`:
 >
 ```javascript
 ...
