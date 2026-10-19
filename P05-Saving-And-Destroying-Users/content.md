@@ -122,7 +122,7 @@ When a user closes out of the browser window, we want to get rid of them from ou
 **Hints:**
 
 - there is a [delete](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete) function...
-- There's also a [disconnect](https://socket.io/docs/client-api/#socket-disconnect) listener...
+- There's also a [disconnect](https://socket.io/docs/v4/server-socket-instance/#disconnect) listener...
 
 >[solution]
 >
@@ -151,7 +151,7 @@ Now update the client to **refresh its online users** when a *"user has left"*.
 socket.on('user has left', (onlineUsers) => {
   $('.users-online').empty();
   for(username in onlineUsers){
-    $('.users-online').append(`<p>${username}</p>`);
+    $('.users-online').append(`<div class="user-online">${username}</div>`);
   }
 });
 ```
