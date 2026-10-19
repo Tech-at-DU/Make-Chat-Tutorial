@@ -70,7 +70,7 @@ Let's update our view to have a username form.
   <body>
 >
     <form class="username-form">
-      <input id="username-input" placeholder="Username"></input>
+      <input id="username-input" placeholder="Username">
       <button id="create-user-btn">Join Chat</button>
     </form>
 >

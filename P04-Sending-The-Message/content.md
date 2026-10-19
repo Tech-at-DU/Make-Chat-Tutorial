@@ -41,7 +41,7 @@ I'll give you the new handlebars and CSS so you can fast forward a bit on the st
   <body>
 >
     <form class="username-form">
-      <input id="username-input" placeholder="Username"></input>
+      <input id="username-input" placeholder="Username">
       <button id="create-user-btn">Join Chat</button>
     </form>
 >

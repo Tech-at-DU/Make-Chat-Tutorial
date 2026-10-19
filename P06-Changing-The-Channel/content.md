@@ -15,7 +15,7 @@ slug: change-the-channel
     1. **Ensure messages go to their designated channels**
     1. **Allow users to change channels**
 
-So currently all messages are in one chat room, but if we want to be like Slack or Discord we need there to be many channels. We're going to use Socket.io's built in [rooms](https://socket.io/docs/rooms-and-namespaces/#Rooms) functionality to implement these channels.
+So currently all messages are in one chat room, but if we want to be like Slack or Discord we need there to be many channels. We're going to use Socket.io's built in [rooms](https://socket.io/docs/v4/rooms/) functionality to implement these channels.
 
 We're now going to create different "channels" for users to create or join. Let's add some functionality to the channel creator on the client. Each channel will be a sub-chatroom that is logged as belonging to a parent socket connection.
 
@@ -310,7 +310,7 @@ socket.on('user changed channel', (newChannel) => {
 
 Check out your application. Everything should now be working as it should! Great work!
 
-As you go through this BEW course, see if you can relate what you learned in this tutorial to the lessons in class!
+As you go through this course, see if you can relate what you learned in this tutorial to the lessons in class!
 
 # Now Commit
 
@@ -354,7 +354,7 @@ Some future enhancements you could do
 >[challenge]
 >
 1. Implementing a private message system.
-1. Using Socket.io's "channels" for multiple make chat teams to exist
+1. Using Socket.io's "namespaces" for multiple make chat teams to exist
 1. Using Socket.io's "rooms" to make themed chat rooms inside a channel, like "general" and "random"
 1. Dropping the client into an Electron app to make a desktop app.
 1. Adding a Team and a User resource and persisting teams and authenticating users.
